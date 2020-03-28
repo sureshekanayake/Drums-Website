@@ -1,0 +1,75 @@
+.section-title {
+  text-align: center;
+  margin-bottom: 75px;
+}
+
+.section-title i {
+  display: block;
+  color: #8a8a8a;
+  font-size: 65px;
+}
+
+.section-title h2 {
+  font-size: 48px;
+  position: relative;
+  display: inline-block;
+  padding: 0 16px;
+}
+
+.section-title h2:after,
+.section-title h2:before {
+  position: absolute;
+  content: "";
+  width: 100px;
+  height: 1px;
+  background: #ffc515;
+  top: 32px;
+}
+
+.section-title h2:before {
+  left: 100%;
+}
+
+.section-title h2:after {
+  right: 100%;
+}
+
+.section-title.text-white i {
+  color: #fff;
+}
+
+.section-title.st-no-style h2:after,
+.section-title.st-no-style h2:before {
+  display: none;
+}
+
+.spad {
+  padding-top: 110px;
+  padding-bottom: 115px;
+}
+
+/*---------------------
+  Services Section
+-----------------------*/
+
+.services {
+  padding-top: 40px;
+}
+
+.service-item {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.service-item i {
+  display: block;
+  color: #c49812;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.service-item h3 {
+  margin-bottom: 30px;
+}
